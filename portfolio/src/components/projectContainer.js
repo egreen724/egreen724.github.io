@@ -23,7 +23,8 @@ class ProjectContainer extends Component {
 
   render() {
     return (
-      <div >
+      <div className="projectContainer">
+        <h2>Select Portfolio</h2>
         {this.renderProjects()}
       </div>
     )

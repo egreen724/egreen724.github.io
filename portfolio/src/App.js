@@ -12,8 +12,8 @@ function App() {
       </header>
 
       <body>
-        <About />
         <ProjectContainer />
+        <About />
       </body>
     </div>
   );

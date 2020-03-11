@@ -27,6 +27,11 @@
 
 }
 
+.projectContainer {
+  background-color: #163829;
+  color: white;
+}
+
 #logo {
   float: left;
   text-align: right;
@@ -50,4 +55,10 @@
 /* Change the link color to #111 (black) on hover */
 .menu li a:hover {
   color: #163829;
+}
+
+#headshot {
+  width: 30%;
+  filter: grayscale(100%);
+  border-radius: 50%; 
 }
