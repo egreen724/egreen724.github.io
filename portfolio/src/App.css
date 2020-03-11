@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  max-height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  font-size: 1em;
+
+}
+
+#logo {
+  float: left;
+  text-align: right;
+  margin: 2px 40px;
+  font-size: 2em;
+  color: #163829;
+}
+
+.menu li {
+  flex: 3;
+}
+
+.menu li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu li a:hover {
+  color: #163829;
+}
