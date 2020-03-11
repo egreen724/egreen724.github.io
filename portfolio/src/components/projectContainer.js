@@ -10,12 +10,18 @@ class ProjectContainer extends Component {
         link: "github.com/egreen724/geoculture",
         img: "",
         description: ''
+      },
+      {
+        title: 'Roam App',
+        link: "github.com/egreen724/roam",
+        img: "",
+        description: ''
       }
     ]
   }
 
   renderProjects = () => {
-     this.state.projects.map((project) => {
+     return this.state.projects.map((project) => {
        return <Project project={project} />
      }
     )
@@ -24,7 +30,8 @@ class ProjectContainer extends Component {
   render() {
     return (
       <div className="projectContainer">
-        <h2>Select Portfolio</h2>
+        <h3>Select Portfolio</h3>
+        <br></br>
         {this.renderProjects()}
       </div>
     )

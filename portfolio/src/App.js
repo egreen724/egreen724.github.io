@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Menu from './components/menu.js'
 import About from './components/about.js'
+import Footer from './components/footer.js'
 import ProjectContainer from './components/projectContainer.js'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <body>
         <ProjectContainer />
         <About />
+        <Footer />
       </body>
     </div>
   );

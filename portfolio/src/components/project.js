@@ -1,12 +1,13 @@
 import React from 'react'
 
-const Project = (project) => {
+const Project = (props) => {
+  
   return (
       <div className="project">
-        <h3> {project.title} </h3>
+        <h3> {props.project.title} </h3>
         <ul>
-          <li> {project.description} </li>
-          <li> {project.link} </li>
+          <li> {props.project.description} </li>
+          <li> {props.project.link} </li>
         </ul>
       </div>
   );

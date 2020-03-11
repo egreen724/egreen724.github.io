@@ -30,6 +30,19 @@
 .projectContainer {
   background-color: #163829;
   color: white;
+
+}
+
+.project {
+  background-color: white;
+  color: grey;
+  width: 30%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.project li {
+  text-decoration: none;
 }
 
 #logo {
@@ -58,7 +71,19 @@
 }
 
 #headshot {
-  width: 30%;
-  filter: grayscale(100%);
-  border-radius: 50%; 
+  max-width: 400px;
+  border-color: #163829;
+  border: 4px;
+  /* filter: grayscale(100%); */
+  /* border-radius: 50%; */
+}
+
+.footer {
+  background-color: #163829;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
 }
