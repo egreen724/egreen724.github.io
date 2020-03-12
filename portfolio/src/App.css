@@ -1,3 +1,7 @@
+#root {
+  font-family: 'Raleway', serif;
+}
+
 .App {
   text-align: center;
 }
@@ -10,6 +14,7 @@
   align-items: center;
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
+
   color: black;
 }
 
@@ -36,7 +41,7 @@
 .project {
   background-color: white;
   color: grey;
-  max-width: 40%;
+  max-width: 300px;
   display: inline-block;
   margin: 20px;
 
@@ -86,6 +91,10 @@
 .icon {
   width: 30px;
   margin: 5px;
+}
+
+.appImage {
+  max-width: 90%;
 }
 
 .footer {

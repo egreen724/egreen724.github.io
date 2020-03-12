@@ -17,6 +17,12 @@ class ProjectContainer extends Component {
         heroku: "https://roamrailsapp.herokuapp.com/",
         img: "https://s3.us-east-2.amazonaws.com/eyg.portfolio/Screen+Shot+2020-03-11+at+11.07.30+PM.png",
         description: 'A Ruby on Rails app to track your outdoor adventures and plan future trips.'
+      },
+      {
+        title: 'ListenUp',
+        link: "https://github.com/egreen724/podcast_tracker_SinatraProject",
+        img: "https://s3.us-east-2.amazonaws.com/eyg.portfolio/Screen+Shot+2020-03-11+at+11.07.30+PM.png",
+        description: 'A Sinatra-based web app for discovering new podcasts.'
       }
     ]
   }
