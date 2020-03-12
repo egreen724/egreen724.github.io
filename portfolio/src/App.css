@@ -1,5 +1,5 @@
 #root {
-  /* font-family: 'Raleway', serif; */
+  font-family: 'Raleway', sans-serif;
 }
 
 .App {
@@ -59,7 +59,7 @@
 
 }
 
-.projectContainer {
+#projectContainer {
   padding-top: 10px;
   background-color: #163829;
   color: white;
@@ -127,7 +127,7 @@
   max-width: 90%;
 }
 
-.about {
+#about {
   padding: 10px;
   width: 70%;
   margin: auto;

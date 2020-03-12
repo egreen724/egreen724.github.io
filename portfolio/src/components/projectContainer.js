@@ -36,7 +36,7 @@ class ProjectContainer extends Component {
 
   render() {
     return (
-      <div className="projectContainer">
+      <div id="projectContainer">
         <h2>Select Portfolio</h2>
         <br></br>
         {this.renderProjects()}
