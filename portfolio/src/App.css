@@ -36,11 +36,16 @@
 .project {
   background-color: white;
   color: grey;
-  width: 30%;
+  max-width: 40%;
   display: inline-block;
-  padding: 20px;
+  margin: 20px;
+
 }
 
+.project ul {
+  list-style-type: none;
+
+}
 .project li {
   text-decoration: none;
 }
@@ -71,17 +76,22 @@
 }
 
 #headshot {
-  max-width: 400px;
+  max-width: 350px;
   border-color: #163829;
   border: 4px;
   /* filter: grayscale(100%); */
   /* border-radius: 50%; */
 }
 
+.icon {
+  width: 30px;
+  margin: 5px;
+}
+
 .footer {
   background-color: #163829;
   color: white;
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;

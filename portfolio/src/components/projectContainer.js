@@ -7,15 +7,16 @@ class ProjectContainer extends Component {
     projects: [
       {
         title: 'GeoCulture',
-        link: "github.com/egreen724/geoculture",
+        link: "https://github.com/egreen724/geoculture_react",
         img: "",
-        description: ''
+        description: 'Web app built on a Ruby on Rails backend with a React/Redux frontend.'
       },
       {
         title: 'Roam App',
-        link: "github.com/egreen724/roam",
-        img: "",
-        description: ''
+        link: "https://github.com/egreen724/rails-project",
+        heroku: "https://roamrailsapp.herokuapp.com/",
+        img: "https://s3.us-east-2.amazonaws.com/eyg.portfolio/Screen+Shot+2020-03-11+at+11.07.30+PM.png",
+        description: 'A Ruby on Rails app to track your outdoor adventures and plan future trips.'
       }
     ]
   }
