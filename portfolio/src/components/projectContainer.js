@@ -8,7 +8,7 @@ class ProjectContainer extends Component {
       {
         title: 'GeoCulture',
         link: "https://github.com/egreen724/geoculture_react",
-        img: "",
+        img: "https://s3.us-east-2.amazonaws.com/eyg.portfolio/Screen+Shot+2020-03-12+at+12.14.04+AM.png",
         description: 'Web app built on a Ruby on Rails backend with a React/Redux frontend.'
       },
       {
@@ -21,7 +21,7 @@ class ProjectContainer extends Component {
       {
         title: 'ListenUp',
         link: "https://github.com/egreen724/podcast_tracker_SinatraProject",
-        img: "https://s3.us-east-2.amazonaws.com/eyg.portfolio/Screen+Shot+2020-03-11+at+11.07.30+PM.png",
+        img: "https://s3.us-east-2.amazonaws.com/eyg.portfolio/Screen+Shot+2020-03-12+at+12.20.21+AM.png",
         description: 'A Sinatra-based web app for discovering new podcasts.'
       }
     ]
@@ -37,7 +37,7 @@ class ProjectContainer extends Component {
   render() {
     return (
       <div className="projectContainer">
-        <h3>Select Portfolio</h3>
+        <h2>Select Portfolio</h2>
         <br></br>
         {this.renderProjects()}
       </div>
