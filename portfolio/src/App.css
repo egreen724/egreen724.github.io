@@ -6,9 +6,9 @@
   text-align: center;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     #logo {
-      left: 20px;
+      left: -20px;
       font-size: 36pt;
     }
 
@@ -21,9 +21,21 @@
     .App-header {
       width: 100%;
     }
+}
+@media (max-width: 1200px) {
+    #logo {
+      left: -20px;
+      font-size: 36pt;
+    }
 
-    .menu ul {
-      font-size: 18pt;
+    .menu {
+      position: absolute;
+      top: 15px;
+      left: -20px;
+    }
+
+    .App-header {
+      width: 100%;
     }
 }
 
@@ -35,7 +47,7 @@
   }
 
   #logo {
-    /* position: absolute; */
+    font-size: 2em;
     left: 20px;
   }
 
@@ -48,8 +60,8 @@
 }
 @media (max-width: 800px) {
   #logo {
-    /* position: absolute; */
     left: -20px;
+    font-size: 2em;
   }
 
   .menu {
@@ -61,20 +73,18 @@
 @media screen and (max-width: 600px) {
   #logo {
     left: -20px;
-
+    font-size: 2.5em;
   }
 
   .menu {
     position: absolute;
     top: 15px;
     left: -20px;
-
   }
 
   #nav {
     display: none;
   }
-
 }
 
 
@@ -155,6 +165,7 @@ h2 {
 } */
 
 .menu li a {
+  text-shadow: 2px 2px 4px #000000;
   display: block;
   float: left;
   color: white;
