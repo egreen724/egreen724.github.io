@@ -13,14 +13,28 @@
     }
 
     .App-header {
-      width: 80%;
+      width: 100%;
     }
+
+    .menu ul {
+      font-size: 2em;
+
+    }
+
 }
 
+@media (min-width: 1000px) {
+
+  #workspace {
+    max-height: 400px;
+    width: auto;
+  }
+}
 @media (max-width: 1000px) {
   #logo {
   font-size: 24pt;
   }
+
 }
 @media (max-width: 800px) {
   #logo {
@@ -31,10 +45,18 @@
   .App-header {
 
   }
+
+
+}
+
+h2 {
+  color: #163829;
+  font-family: 'Raleway', sans-serif;
 }
 
 .App-header {
-  background-color: white;
+  background-color: #163829;
+  color: white;
   /* max-height: 400px; */
   display: flex;
   flex-direction: row;
@@ -59,16 +81,21 @@
 
 }
 
+#workspace {
+  width: 100%;
+  height: auto;
+}
+
+
 #projectContainer {
   padding-top: 10px;
-  background-color: #163829;
-  color: white;
+  background-color: white;
 
 }
 
 .project {
   background-color: white;
-  color: grey;
+  color: black;
   max-width: 300px;
   max-height: 520px;
   min-height: 520px;
@@ -90,16 +117,17 @@
   float: left;
   text-align: right;
   margin: 2px 40px;
-  color: #163829;
+  color: white;
 }
 
-.menu li {
+/* .menu li {
   flex: 3;
-}
+} */
 
 .menu li a {
   display: block;
-  color: grey;
+  float: left;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -107,7 +135,7 @@
 
 /* Change the link color to #111 (black) on hover */
 .menu li a:hover {
-  color: #163829;
+  color: grey;
 }
 
 #headshot {
@@ -125,12 +153,17 @@
 
 .appImage {
   max-width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #about {
   padding: 10px;
   width: 70%;
   margin: auto;
+}
+
+#bio {
+  text-align: left;
 }
 
 .footer {

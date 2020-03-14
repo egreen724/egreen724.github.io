@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Menu from './components/menu.js'
 import About from './components/about.js'
-import Footer from './components/footer.js'
 import ProjectContainer from './components/projectContainer.js'
 
 function App() {
@@ -13,9 +12,9 @@ function App() {
       </header>
 
       <body>
+        <img id="workspace" src="https://s3.us-east-2.amazonaws.com/eyg.portfolio/workspace.jpg"/>
         <ProjectContainer />
         <About />
-        <Footer />
       </body>
     </div>
   );
