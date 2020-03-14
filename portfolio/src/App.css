@@ -6,10 +6,16 @@
   text-align: center;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     #logo {
+      left: 20px;
       font-size: 36pt;
-      height: auto;
+    }
+
+    .menu {
+      position: absolute;
+      top: 15px;
+      left: -20px;
     }
 
     .App-header {
@@ -17,54 +23,78 @@
     }
 
     .menu ul {
-      font-size: 2em;
-
+      font-size: 18pt;
     }
-
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
 
   #workspace {
-    max-height: 400px;
+    max-height: 500px;
     width: auto;
   }
-}
-@media (max-width: 1000px) {
+
   #logo {
-  font-size: 24pt;
+    /* position: absolute; */
+    left: 20px;
+  }
+
+  .menu {
+    position: absolute;
+    top: 15px;
+    left: -20px;
   }
 
 }
 @media (max-width: 800px) {
   #logo {
-    /* font-size: 4em; */
-  }
-}
-@media (max-width: 400px) {
-  .App-header {
-
+    /* position: absolute; */
+    left: -20px;
   }
 
+  .menu {
+    position: absolute;
+    top: 15px;
+    left: -20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #logo {
+    left: -20px;
+
+  }
+
+  .menu {
+    position: absolute;
+    top: 15px;
+    left: -20px;
+
+  }
+
+  #nav {
+    display: none;
+  }
 
 }
+
 
 h2 {
   color: #163829;
   font-family: 'Raleway', sans-serif;
+  margin-bottom: 0px;
 }
 
 .App-header {
-  background-color: #163829;
+  /* background-color: #163829; */
+  background-image: url('https://s3.us-east-2.amazonaws.com/eyg.portfolio/workspace.jpg');
+  background-size: cover;
   color: white;
-  /* max-height: 400px; */
+  height: 400px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
-
-  color: black;
 }
 
 .App-link {
@@ -77,8 +107,7 @@ h2 {
   padding: 0;
   overflow: hidden;
   display: flex;
-  font-size: 1em;
-
+  /* font-size: 1em; */
 }
 
 #workspace {
@@ -90,7 +119,6 @@ h2 {
 #projectContainer {
   padding-top: 10px;
   background-color: white;
-
 }
 
 .project {
@@ -101,6 +129,7 @@ h2 {
   min-height: 520px;
   display: inline-block;
   margin: 20px;
+  margin-top: 0px;
   padding: 5px;
 
 }
@@ -114,6 +143,7 @@ h2 {
 }
 
 #logo {
+  text-shadow: 2px 2px 4px #000000;
   float: left;
   text-align: right;
   margin: 2px 40px;

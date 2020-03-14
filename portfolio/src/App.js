@@ -12,7 +12,6 @@ function App() {
       </header>
 
       <body>
-        <img id="workspace" src="https://s3.us-east-2.amazonaws.com/eyg.portfolio/workspace.jpg"/>
         <ProjectContainer />
         <About />
       </body>
