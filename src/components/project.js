@@ -4,7 +4,7 @@ const Project = (props) => {
 
   function renderHeroku(){
     if (props.project.heroku) {
-      return <a href={props.project.heroku}><img className="icon" target="_blank" src="https://s3.us-east-2.amazonaws.com/eyg.portfolio/export.jpeg" /> </a>
+      return <a href={props.project.heroku} target="_blank"><img className="icon" src="https://s3.us-east-2.amazonaws.com/eyg.portfolio/export.jpeg" /> </a>
     }
   }
 

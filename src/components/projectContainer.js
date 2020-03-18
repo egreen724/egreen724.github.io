@@ -21,6 +21,7 @@ class ProjectContainer extends Component {
       {
         title: 'ListenUp',
         link: "https://github.com/egreen724/podcast_tracker_SinatraProject",
+        heroku: 'https://listenup-sinatra.herokuapp.com/',
         img: "https://s3.us-east-2.amazonaws.com/eyg.portfolio/Screen+Shot+2020-03-12+at+12.20.21+AM.png",
         description: 'A Sinatra-based web app for discovering new podcasts.'
       }
